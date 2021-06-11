@@ -153,6 +153,7 @@ button:hover{
         background-position: 50% 50%;
         background-size: 190%;;
         opacity: 80%;
+        margin: 5% 0% 2% 0%;
     }
 
     h1 {
@@ -160,5 +161,9 @@ button:hover{
         line-height: 1.2;
         padding-bottom: 2%;
         font-weight: bold;
+    }
+
+    .title-container hr {
+        width: 100%;
     }
 }
