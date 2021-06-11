@@ -138,6 +138,7 @@ button:hover{
 
 /* mobile styles */
 @media (max-width: 500px) {
+    /* navbar */
     nav {
         width: 40%;
     }
