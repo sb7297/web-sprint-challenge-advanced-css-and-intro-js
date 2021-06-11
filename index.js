@@ -291,9 +291,19 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(/*Your Code Here*/){
-    /*Your Code Here*/
-  }
+function addArtist(artists){
+  let me = {
+    id: 20,
+    name: "Siddharth Baireddy",
+    years: "1998 - 2021",
+    genre: "Web Design",
+    nationality: "American",
+    bio: "Occasions that induce half-heartedness – The religious services on days of Buddhist fasting. Preparations for something still far in the future. Long periods of seclusion at a temple."
+  };
+
+  artists.splice(1, 0, me);
+  return artists;
+}
 
   
 
